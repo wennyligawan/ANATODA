@@ -1,0 +1,172 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>ANATODA — Smart Technology</title>
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Jura:wght@400;600;700&family=Quicksand:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- Background -->
+  <div class="page-bg"></div>
+  <div class="bg-scroll" aria-hidden="true">
+    <img src="assets/background.png" alt="">
+  </div>
+
+  <!-- Header -->
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="#hero" aria-label="ANATODA">
+        <img src="assets/logo%20anatoda%20dark.svg" alt="ANATODA logo" />
+      </a>
+      <button class="nav-toggle" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="nav">
+        <a href="#hero" class="active">Home</a>
+        <a href="#mission">Mission</a>
+        <a href="#product">Product</a>
+        <a href="#FAQ">FAQS</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Snap Container -->
+  <main class="snap-container">
+
+    <!-- HERO -->
+    <section id="hero" class="snap hero">
+      <div class="container hero-grid">
+        <div class="hero-text">
+          <p class="eyebrow">A NEW ERA OF SMART CONNECTIVITY</p>
+          <h1>SMART TECHNOLOGY DESIGNED TO SIMPLIFY AND ENHANCE EVERYDAY LIFE.</h1>
+          <div class="cta-row">
+            <a class="btn primary" href="#product">Explore Product</a>
+            <a class="btn ghost" href="#mission">Our Mission</a>
+          </div>
+        </div>
+        <figure class="hero-media">
+          <img src="assets/human robot hand.png" alt="Human and robot touching with data UI" />
+        </figure>
+      </div>
+    </section>
+
+    <!-- VISION & MISSION -->
+    <section id="mission" class="snap vision-mission full-bleed">
+      <div class="vm-bg"></div>
+      <div class="container vm-content">
+        <p class="vm-kicker">A NEW ERA OF NAVIGATION</p>
+        <div class="vm-grid">
+          <div class="vm-card">
+            <h3>ANATODA’S VISION</h3>
+            <p>Empowering everyday life with smart, simple, and connected technology.</p>
+          </div>
+          <div class="vm-card">
+            <h3>ANATODA’S MISSION</h3>
+            <ul>
+              <li>Create innovative solutions powered by AI &amp; IoT.</li>
+              <li>Make technology accessible and easy to use.</li>
+              <li>Build smarter and more sustainable lifestyles.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PRODUCT -->
+    <section id="product" class="snap">
+      <div class="product container">
+        <figure class="product-media">
+          <img src="assets/product.png" alt="Anatoda ESP32 device" />
+        </figure>
+        <div class="product-text">
+          <p class="kicker">ANATODA’S PRODUCT</p>
+          <h2>ESP32 – AN INNOVATIVE NAVIGATION SYSTEM</h2>
+          <p>This IoT system intelligently guides users to their destinations, providing seamless navigation and real-time connectivity for a smarter travel experience.</p>
+          <div class="badges">
+            <span>Bluetooth</span><span>Low Power</span><span>Water Resistant</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section id="FAQ" class="snap">
+      <div class="faqs container glass">
+        <h2 class="title">FAQS</h2>
+
+        <div class="faq">
+          <div class="question">
+            <h3>Apa itu ANOTODA?</h3>
+            <svg width="15" height="10" viewBox="0 0 45 25"><path d="M3 3L21 21L39 3" stroke="white" stroke-width="7" stroke-linecap="round"/></svg>
+          </div>
+          <div class="answer">
+            <p>ANOTODA adalah sistem navigasi pintar yang dirancang khusus untuk pengendara motor. Perangkat ini menghubungkan ponsel dengan modul kecil di motor untuk menampilkan arah secara real-time tanpa mengganggu pandangan pengendara.</p>
+          </div>
+        </div>
+
+        <hr class="line">
+
+        <div class="faq">
+          <div class="question">
+            <h3>Kenapa ANOTODA lebih praktis daripada sistem navigasi pada umumnya?</h3>
+            <svg width="15" height="10" viewBox="0 0 45 25"><path d="M3 3L21 21L39 3" stroke="white" stroke-width="7" stroke-linecap="round"/></svg>
+          </div>
+          <div class="answer">
+            <p>ANOTODA menjaga ponsel dari getaran dan panas, serta menampilkan arah dengan tampilan minimalis dan tidak mengganggu.</p>
+          </div>
+        </div>
+
+        <hr class="line">
+
+        <div class="faq">
+          <div class="question">
+            <h3>Di mana saya bisa membeli ANOTODA?</h3>
+            <svg width="15" height="10" viewBox="0 0 45 25"><path d="M3 3L21 21L39 3" stroke="white" stroke-width="7" stroke-linecap="round"/></svg>
+          </div>
+          <div class="answer">
+            <p>ANOTODA akan segera tersedia untuk pre-order di situs resmi kami.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="snap">
+  <div class="contact container">
+    <div class="contact-form glass">
+      <h2>Contact Us</h2>
+      <form>
+        <label>Name <input type="text" id="name" required></label>
+        <label>Email <input type="email" id="email" required></label>
+        <label>Message <textarea id="message" rows="4" required></textarea></label>
+        <button class="btn primary" type="button" id="sendBtn">Submit</button>
+      </form>
+    </div>
+
+    <div class="contact-info">
+      <h2>Find Us!</h2>
+      <div class="contact-item"><img src="assets/logo shopee.png" alt=""><p>Shopee: <a href="#">Name</a></p></div>
+      <div class="contact-item"><img src="assets/logo tokopedia.png" alt=""><p>Tokopedia: <a href="#">Name</a></p></div>
+      <div class="contact-item"><img src="assets/logo whatsapp.png" alt=""><p><a href="https://wa.me/6281385758464">+62 813 8575 8464</a></p></div>
+      <div class="contact-item"><img src="assets/logo email.png" alt=""><p><a href="mailto:anatodae@gmail.com">anatodae@gmail.com</a></p></div>
+      <div class="contact-item"><img src="assets/instagram logo.png" alt=""><p><a href="https://www.instagram.com/anotoda.id">anotoda.id</a></p></div>
+    </div>
+  </div>
+</section>
+
+  </main>
+
+  <footer class="site-footer full-bleed">
+    <div class="container">
+      <p>Copyright &copy; 2025 Anatoda. All Rights Reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
